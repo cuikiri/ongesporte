@@ -4,7 +4,20 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
 
+    <include file="classpath:config/liquibase/changelog/20150923165933_added_entity_Foto.xml" relativeToChangelogFile="false"/>
+	<include file="classpath:config/liquibase/changelog/20151004125523_added_entity_FotoIcon.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20151004130232_added_entity_FotoAvatar.xml" relativeToChangelogFile="false"/>
+    
     <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    
+    <include file="classpath:config/liquibase/changelog/20150916202453_added_entity_Imagem.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20151004131039_added_entity_ImagemIcon.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20151004131639_added_entity_ImagemAvatar.xml" relativeToChangelogFile="false"/>
+    
+    <include file="classpath:config/liquibase/changelog/20150916201353_added_entity_Post.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20150916205507_added_entity_Comentario.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20150916205748_added_entity_Resposta.xml" relativeToChangelogFile="false"/>
+    
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
